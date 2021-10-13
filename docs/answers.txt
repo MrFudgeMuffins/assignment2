@@ -1,0 +1,20 @@
+1.
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 697 bytes | 348.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/MrFudgeMuffins/assignment2.git
+   f4975e5..93a6e5f  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+2. 9 commits, according to 'git shortlog'
+3. The README.md file was last updated Wednesday, October 13th 2021 at 11:54, according to 'git log README.md'
+4. Branches enable multiple people to work on the same repository simultaneously. They also allow for the development of separate features independently.
+5. 'git log' returns a whole history of changes to the branch. 'git status' returns only the most recent change from the latest commit.
+6. I would use 'git log Vehicle.h'.
+7. I would use 'git log | grep file'.
+8. Inheritance is the idea that new data types can be defined as derivations of previously defined types, rather than needing to be created from scratch. Polymorhpism means objects can be processed differently based on their data type. In practice, this means a parent's class methods could be overwritten by their derived classes. Encapsulation is the idea that data should be binded with the code that manipulates it to keep it from external interference. Classes should be separated and users should be able to use the program without needing to know how about its implementation.
+9. In an Integration Manager workflow, each developer pushes to their own repository and pull from the central repository, which is managed by an integration manager. The Dictator and Lieutenants workflow also has a central repository with a manager. However, developers are more focused on topic branches and work separately in lieutenant repositories. These are managed by what could be considered more specified integration managers who then merge to the dictator repository. That dictator can then push to the central repository.
+10. A team of 100 developers would benefit from the Dictator and Lieutenants workflow as it is more fitting for larger projects due to its segmentation of programming. Each lieutenant branch represents different aspects of the project that can be individually checked by the dictator, instead of the dictator needing to check each and every developer's pull requests. This will minimize merge conflicts as the lieutenants and dictator will be able to resolve the issues at two levels before pushing to the central repository.
