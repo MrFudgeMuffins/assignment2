@@ -1,3 +1,5 @@
+10/12/2021 - Git Lab Tutorials
+October 2020 - GitHub Account setup
 1.
 Enumerating objects: 9, done.
 Counting objects: 100% (9/9), done.
